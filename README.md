@@ -35,8 +35,10 @@ None currently.
 Initial local version with basic build method highlighting.
 
 ##Install
-1. Opening the Command Palette (Ctrl+Shift+P)
-2. Running "Extensions: Install from VSIX..."
-3. Selecting your .vsix file
+1. Open the Command Palette (Ctrl+Shift+P)
+2. Run "Extensions: Install from VSIX..."
+3. Select your .vsix file
+
+Hope it will be useful 🍉✌️
 
 download the flutter-build-highlighter-0.0.1.vsix file from this repo. 
