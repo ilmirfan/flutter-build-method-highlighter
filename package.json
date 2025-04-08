@@ -1,0 +1,33 @@
+{
+  "name": "flutter-build-highlighter",
+  "displayName": "Flutter Build Method Highlighter",
+  "description": "Highlights Flutter build methods for easier navigation",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:dart"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Flutter Build Highlighter",
+      "properties": {
+        "flutterBuildHighlighter.backgroundColor": {
+          "type": "string",
+          "default": "rgba(255, 157, 0, 0.2)",
+          "description": "Background color for build method highlighting"
+        },
+        "flutterBuildHighlighter.borderColor": {
+          "type": "string",
+          "default": "rgba(255, 157, 0, 0.6)",
+          "description": "Border color for build method highlighting"
+        }
+      }
+    }
+  }
+}
